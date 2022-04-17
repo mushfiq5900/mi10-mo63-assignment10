@@ -1,6 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import Footer from '../../footer/Footer';
+import Footer from '../footer/Footer';
 import Partners from '../partners/Partners';
 import Services from '../services/Services';
 
