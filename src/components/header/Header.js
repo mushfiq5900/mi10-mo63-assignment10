@@ -3,7 +3,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 const Header = () => {
     return (
-        <div className="container-fluid bg-light">
+        <div className="container-fluid bg-light p-0">
             <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
                 <Container>
                     <Navbar.Brand href="#home">
@@ -15,7 +15,7 @@ const Header = () => {
                             alt="React Bootstrap logo"
                         />
                     </Navbar.Brand>
-                    <Navbar.Brand href="#home">Splash Photography</Navbar.Brand>
+                    <Navbar.Brand className='fs-3 fw-normal' href="#home">Splash Photography <small className='fs-6 fw-normal'>by Mushfiq</small></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto">
