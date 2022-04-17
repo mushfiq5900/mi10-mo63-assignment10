@@ -1,4 +1,4 @@
-# Splash Photography
+# Splash Photography by Mushfiq
 ## Project Overview:
 
 - This is project is about photgraphy service
