@@ -13,6 +13,6 @@
 - React firebase hooks
 - Required Auth
 
-### Live Link (Netlify):
+### Live Link (Firebase Hosting):
 
-Netlify: [https://assignment10-auth.web.app/login](https://assignment10-auth.web.app/login)
+Firebase Hosting: [https://assignment10-auth.web.app/login](https://assignment10-auth.web.app/login)
