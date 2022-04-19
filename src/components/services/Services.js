@@ -1,6 +1,5 @@
 import React from 'react';
 import useService from '../../hooks/useService';
-import Footer from '../footer/Footer';
 import Service from './service/Service';
 
 const Services = () => {
@@ -15,7 +14,6 @@ const Services = () => {
                     }
                 </div>
             </div>
-            <Footer></Footer>
         </div>
     );
 };
