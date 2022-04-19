@@ -16,7 +16,7 @@ const Social = () => {
         </div>
     }
     if (user) {
-        navigate('/');
+        navigate('/services');
     }
     return (
         <div className="container">

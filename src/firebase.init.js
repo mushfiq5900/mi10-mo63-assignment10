@@ -14,7 +14,7 @@ const firebaseConfig = {
     storageBucket: "assignment10-auth.appspot.com",
     messagingSenderId: "910973811874",
     appId: "1:910973811874:web:8c98f17440fe13a9b66bfb"
-};
+  };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
