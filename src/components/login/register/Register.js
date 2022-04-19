@@ -28,10 +28,6 @@ const Register = () => {
     return (
         <div className="container w-50 mt-5">
             <form onSubmit={handleSignup} className="row g-3">
-                {/* <div className="col-md-12">
-                    <label for="inputText1" className="form-label">Email</label>
-                    <input onBlur={handleNameBlur} type="text" className="form-control" id="inputText1" />
-                </div> */}
                 <div className="col-md-12">
                     <label className="form-label">Email</label>
                     <input onBlur={handleEmailBlur} type="email" className="form-control" id="inputEmail4" required />
@@ -51,6 +47,8 @@ const Register = () => {
                 <div className="col-12">
                     <button type="submit" className="btn btn-primary">Register</button>
                 </div>
+                <p>Already Registered?<Link className='click-link' to="/login">Click to Login</Link></p>
+                <button type="submit" className="btn btn-primary">Login</button>
             </form>
         </div>
     );

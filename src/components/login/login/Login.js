@@ -9,7 +9,6 @@ const Login = () => {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const navigate = useNavigate();
-
     const [
         signInWithEmailAndPassword, user, error] = useSignInWithEmailAndPassword(auth);
     const handleEmailBlur = event => {
@@ -22,9 +21,10 @@ const Login = () => {
         navigate('/');
     }
 
+
     const handleLogin = event => {
-        signInWithEmailAndPassword(email, password)
         event.preventDefault();
+        signInWithEmailAndPassword(email, password)
     }
 
 
@@ -33,16 +33,17 @@ const Login = () => {
             <form onSubmit={handleLogin}>
                 <div className="mb-3">
                     <label for="exampleInputEmail1" className="form-label">Email address</label>
-                    <input onBlur={handleEmailBlur} type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                    <input onBlur={handleEmailBlur} type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required />
                     <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
                 </div>
                 <div className="mb-3">
                     <label for="exampleInputPassword1" className="form-label">Password</label>
-                    <input onBlur={handlePasswordBlur} type="password" className="form-control" id="exampleInputPassword1" />
+                    <input onBlur={handlePasswordBlur} type="password" className="form-control" id="exampleInputPassword1" required />
                 </div>
                 <p>New in Splash Photography? <Link className='click-link' to="/register">Click to Register</Link></p>
                 <button type="submit" className="btn btn-primary">Login</button>
             </form>
+
             <Social></Social>
         </div>
     );
