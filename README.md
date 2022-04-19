@@ -15,4 +15,4 @@
 
 ### Live Link (Firebase Hosting):
 
-Firebase Hosting: [https://assignment10-auth.web.app/login](https://assignment10-auth.web.app/login)
+Firebase Hosting: [https://assignment10-auth.web.app](https://assignment10-auth.web.app)
